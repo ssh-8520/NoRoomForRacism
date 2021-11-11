@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#contentsA{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#contentsB{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.textBoxA{
+    width: 1200px;
+    height: 115px;
+    margin-top: 50px;
+    position: fixed;
+    align-items: center;
+    top: 0px;
+}
+
+.textBoxA p{
+    font-size: 27.5px;
+    color: white;
+    text-align: center;
+    line-height: 115px;
+    font-family: G마켓 산스 TTF;
+    font-weight: 600;
+}
+
+.textBoxB{
+    width: 1200px;
+    height: 115px;
+    margin-bottom: 50px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.textBoxB p{
+    font-size: 17.5px;
+    color: white;
+    text-align: center;
+    font-family: G마켓 산스 TTF;
+    line-height: 150%;
+}
+
+.imgBoxA{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+}
+
+.imgBoxB{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+}
+
+.videoBox{
+    width: 100%;
+}
+
+#myVideo{
+    width: 100%;
+}
